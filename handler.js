@@ -26,11 +26,11 @@ module.exports = {
         let user = global.DATABASE._data.users[m.sender]
         if (typeof user !== 'object') global.DATABASE._data.users[m.sender] = {}
         if (user) {
-            if (!isNumber(user.healt)) user.healt = 0
+            if (!isNumber(user.healt)) user.healt = 100
             if (!isNumber(user.level)) user.level = 0
             if (!isNumber(user.exp)) user.exp = 0
             if (!isNumber(user.coin)) user.coin = 0
-            if (!isNumber(user.limit)) user.limit = 100000
+            if (!isNumber(user.limit)) user.limit = 30
             if (!isNumber(user.tigame)) user.tigame = 1000
             if (!isNumber(user.lastclaim)) user.lastclaim = 0
             if (!isNumber(user.money)) user.money = 0
@@ -133,7 +133,7 @@ module.exports = {
             level: 0,
             exp: 0,
             coin: 0,
-            limit: 100000,
+            limit: 30,
             tigame: 1000,
             lastclaim: 0,
             money: 0,
