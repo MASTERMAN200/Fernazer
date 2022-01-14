@@ -1,9 +1,9 @@
 global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['-']
 global.channelYT = ['-'] 
-global.owner = ['62895378264836']// Put your number here
-global.mods = ['62895378264836'] // Want some help?
-global.prems = ['62895378264836'] // Premium user has unlimited limit
+global.owner = ['6289625556161']// Put your number here
+global.mods = ['6285879725408'] // Want some help?
+global.prems = ['6289625556161'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -31,8 +31,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Rama Ganz'
-global.author = 'ZyxMapLeBOT'
+global.packname = 'Bot Wangsaf'
+global.author = 'SepongGwhejBamh'
 
 global.multiplier = 20 // The higher, The harder levelup
 
